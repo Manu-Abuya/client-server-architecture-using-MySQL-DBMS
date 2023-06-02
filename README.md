@@ -1,1 +1,1 @@
-# client-server-architecture-using-MySQL-DBMS.
+# CLIENT-SERVER-ARCHITECTURE-USING-MySQL-DBMS.
