@@ -32,3 +32,10 @@ To demonstrate a basic client-server using MySQL Relational Database Management 
     ```
     
     In the bind-address and change the value from 127.0.0.1 to 0.0.0.0.
+    
+6. From the MySQL Client (mysql client), connect remotely to the MySQL Server (mysql server) using the mysql utility:
+
+    - Open a terminal or SSH into the MySQL Client (mysql client).
+    - Use the following command to connect to the MySQL Server: mysql -h <MySQL_Server_IP> -u <username> -p.
+    - Replace <MySQL_Server_IP> with the local IP address of the MySQL Server (mysql server).
+    - Enter the MySQL user's username and password when prompted.
