@@ -21,6 +21,7 @@ To demonstrate a basic client-server using MySQL Relational Database Management 
     a. Both servers are on the same local virtual network and can use local IP addresses to communicate.
 
     b. Open TCP port 3306 on the MySQL server's Security Group:
+    
         - In the 'mysql server' Security Group, add a new inbound rule.
         - Allow access only from the specific local IP address of the 'mysql client'.
         - This allows the MySQL client to connect to the server on port 3306.
