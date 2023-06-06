@@ -15,3 +15,11 @@ To demonstrate a basic client-server using MySQL Relational Database Management 
     ```shell
     sudo apt update
     sudo apt install mysql-client
+    
+4. Enable communication between the MySQL server and client on EC2 instances:
+    a. Both servers are on the same local virtual network and can use local IP addresses to communicate.
+
+    b. Open TCP port 3306 on the MySQL server's Security Group:
+        - In the 'mysql server' Security Group, add a new inbound rule.
+        - Allow access only from the specific local IP address of the 'mysql client'.
+        - This allows the MySQL client to connect to the server on port 3306.
