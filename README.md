@@ -29,5 +29,5 @@ To demonstrate a basic client-server using MySQL Relational Database Management 
 5. Configure MySQL server to allow connection from remote hosts.
     ```shell
     sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
-    
-    In the bind-address and change the value from 127.0.0.1 to 0.0.0.0.
+   
+  In the bind-address and change the value from 127.0.0.1 to 0.0.0.0.
