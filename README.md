@@ -25,3 +25,9 @@ To demonstrate a basic client-server using MySQL Relational Database Management 
         - In the 'mysql server' Security Group, add a new inbound rule.
         - Allow access only from the specific local IP address of the 'mysql client'.
         - This allows the MySQL client to connect to the server on port 3306.
+
+5. Configure MySQL server to allow connection from remote hosts.
+    ```shell
+    sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
+    
+    In the bind-address and change the value from 127.0.0.1 to 0.0.0.0.
